@@ -36,6 +36,7 @@ From within the root directory:
 npm install -g webpack
 npm install
 ```
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50,3 +51,5 @@ npm install
 >>>>>>> cf741bb9794a1031fa2930fe3f091259717f3680
 =======
 >>>>>>> c0cbcfc972e9c4c884fbe920ddb5eec2ca5d0652
+=======
+>>>>>>> 593bf9bd77e79c3aa25f760004fd0e552efafd0b
