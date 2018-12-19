@@ -1,7 +1,7 @@
 import React from 'react';
 
 var Schedule = (props) => (
-  <div className='schedule'>
+  <div className="col-xs-12" id="sticky-sidebar">
   {/* start with rendering data in a list, then refactor to a table layout */}
     <ul>
       {props.teamData.map((team) => {
@@ -16,11 +16,11 @@ var Schedule = (props) => (
             <div>WIN-LOSS: {team.winloss[0]}</div>
             <div>OPPONENTS: {team.opponent[0]}</div>
             <div>WEEK: {team.week[0]}</div>
+            <div>LOGO: <img src={`${team.logo}`}/></div>
           </li>
         )
       })}
     </ul>
   </div>
 )
-
 export default Schedule;
